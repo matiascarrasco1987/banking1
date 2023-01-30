@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<title>Banking+</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<header>
+		<div id="logoinicio">
+			<h1><a id="logo" href="./index.html">BANKING+</a></h1>
+		</div>
+		<nav id="botonera">
+			<ul>
+				<li><a href="./info.html">INFO</a></li>
+				<li><a href="./app.html">APP</a></li>
+				<li><a href="./learn.html">LEARN</a></li>
+				<li><a href="./contacto.html">CONTACTO</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="app">
+		<div id="app1">
+			<img src="assets/img/app1.jpg">
+		</div>
+		<div id="app2">
+			<h1 id="tituloapp">BANKING+ todo tu banco en el celular.</h1>
+			<p>Nuestra aplicación móvil transforma tu celular en una billetera electrónica, para que puedas realizar operaciones y compras en comercios al instante.</p> 
+			<p>¡Registrate solo con tu DNI en simples pasos!</p>
+			<p>BANKING+ te da la posibilidad de utilizar dinero en cuenta de manera simple y segura abonando de forma presencial a través de código QR. ¡Sólo es necesario escanear el código QR generado por el comercio en su terminal POS al momento de pagar con BANKING+, esperar confirmación de la operación y listo! <br> También es posible pagar a otro usuario de BANKING+ que genere un código QR desde su app para realizar un envío inmediato de dinero.</p>
+			<p>BANKING+ es además una tarjeta VISA contactless internacional que podés usar en cualquier parte del mundo. Por cada compra que hacés, podés recibir hasta el 4% de cashback.</p>
+		</div>
+		<div id="app3">
+			<a class="descarga" href="https://apps.apple.com/">DESCARGA LA APP</a>
+		</div>
+
+		<div class="cards">
+			<div class="app4">
+				<figure>
+					<img src="assets/img/app2.jpg">
+				</figure>
+				<div class="contenido">
+					<a href="#app12" onclick="verinfoAPP()">APP</a>
+				</div>
+			</div>	
+			<div class="app4">
+				<figure>
+					<img src="assets/img/app3.jpg">
+				</figure>
+				<div class="contenido">
+					<a href="#tarjeta" onclick="verinfoTARJETA()">TARJETA</a>
+				</div>
+			</div>	
+			<div class="app4">
+				<figure>
+					<img src="assets/img/app4.jpg">
+				</figure>
+				<div class="contenido">
+					<a href="#plazofijo" onclick="verinfoPF()">PLAZO FIJO</a>
+				</div>
+			</div>	
+			<div class="app4">
+				<figure>
+					<img src="assets/img/app5.jpg">
+				</figure>
+				<div class="contenido">
+					<a href="#prestamos" onclick="verinfoPMO()">PRÉSTAMOS</a>
+				</div>
+			</div>
+			<div class="app4">
+				<figure>
+					<img src="assets/img/app6.jpg">
+				</figure>
+				<div class="contenido">
+					<a href="#cashback" onclick="verinfoCASHBACK()">CASHBACK</a>
+				</div>
+			</div>
+		</div>
+		<div class="cajacards" id="caja1">
+			<h1>APP</h1>
+			<p>BANKING+ te da la posibilidad de utilizar dinero en cuenta de manera simple y segura abonando de forma presencial a través de código QR. ¡Sólo es necesario escanear el código QR generado por el comercio en su terminal POS al momento de pagar con BANKING+, esperar confirmación de la operación y listo!
+			También es posible pagar a otro usuario de BANKING+ que genere un código QR desde su app para realizar un envío inmediato de dinero.
+			Tanto usuarios como comercios adheridos pueden disponer de una manera rápida, sencilla y segura al momento de realizar la transacción sin necesidad de utilizar dinero físico.</p>
+		</div>
+		<div class="cajacards" id="caja2" style="display: none;">
+			<h1>TARJETA</h1>
+			<p>BANKING+ es además una tarjeta VISA contactless internacional que podés usar en cualquier parte del mundo.</p>
+		</div>
+		<div class="cajacards" id="caja3" style="display: none;">
+			<h1>PLAZO FIJO</h1>
+			<p>Invertí en plazo fijo de manera rápida, sencilla e instantánea desde BANKING+. Desde la opción “Plazo fijo”, seleccioná el tipo de plazo. Luego elegí el tipo de renovación (sin renovación, renovación total o renovación parcial) y el monto. ¡Listo!
+			También podés consultar la tasa vigente según el tipo de plazo fijo, monto y plazo de tiempo</p>
+		</div>
+		<div class="cajacards" id="caja4" style="display: none;">
+			<h1>PRÉSTAMOS</h1>
+			<p>Accedé a tu préstamo preaprobado a través de BANKING+ en simples pasos. Verificá los datos y condiciones en pantalla. Luego confirmá la operación y acreditá tu préstamo de manera sencilla y rápida en tu cuenta. Para tu seguridad te pediremos revalidar tu identidad con una identificación biométrica.
+			Recordá que estos préstamos están disponibles solo para clientes que previamente hayan sido precalificados.</p>
+		</div>
+		<div class="cajacards" id="caja5" style="display: none;">
+			<h1>CASHBACK</h1>
+			<p>El cashback es una ventaja de BANKING+ para vos por la cual te reembolsamos un porcentaje de tus gastos comerciales. Por cada compra que hacés con nuestra app podés recibir hasta el 4% de cashback que se acreditan en tu cuenta y podes usarlos para lo que vos quieras.</p>
+		</div>		
+	</section>
+
+	<footer>
+		<div class="footer1">
+			<h1><a id="logofooter" href="./index.html">BANKING+</a></h1>
+		</div>	
+		<nav class="footer1">
+			<ul id="menufooter">
+				<li><a href="./info.html">INFO</a></li>
+				<li><a href="./app.html">APP</a></li>
+				<li><a href="./learn.html">LEARN</a></li>
+				<li><a href="./contacto.html">CONTACTO</a></li>
+			</ul>
+		</nav>
+		<div class="footer1">
+			 <ul id="redesfooter">
+                <li><a class="logored" href="https://www.instagram.com/"><img src="./assets/img/INSTAGRAM_Mesa de trabajo 1.png" alt=""></a></li>
+                <li><a  class="logored" href="https://www.facebook.com/"><img src="./assets/img/FACEBOOK_Mesa de trabajo 1.png" alt=""></a></li>
+                <li><a  class="logored" href="https://www.youtube.com/"><img src="./assets/img/youtube_PNG1.png" alt=""> </a></li>
+            </ul>
+		</div>
+		<div class="footer1">
+			<h3 id="copy">Copyright 2023 © BANKING+ hola@banking.com</h3>
+		</div>	
+	</footer>
+	<script src="unidad8.js"></script>
+</body>
+</html>
