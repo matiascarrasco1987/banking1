@@ -36,6 +36,7 @@ header.abajo {
 #logoinicio h1 {
 	margin-left: 35px;
 	position: relative;
+
 }
 
 #logo {
@@ -57,7 +58,7 @@ header.abajo {
 	display: flex;
 	align-items: center;
 	float: right;
-	margin-top: 20px;
+	margin-top: 10px;
 
 }
 
